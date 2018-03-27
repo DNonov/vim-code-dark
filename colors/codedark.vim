@@ -176,7 +176,7 @@ call <sid>hi('Comment', s:cdGray, {}, 'none', {})
 call <sid>hi('Constant', s:cdBlue, {}, 'none', {})
 call <sid>hi('String', s:cdOrange, {}, 'none', {})
 call <sid>hi('Character', s:cdOrange, {}, 'none', {})
-call <sid>hi('Number', s:cdLightGreen, {}, 'none', {})
+call <sid>hi('Number', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('Boolean', s:cdBlue, {}, 'none', {})
 call <sid>hi('Float', s:cdLightGreen, {}, 'none', {})
 
