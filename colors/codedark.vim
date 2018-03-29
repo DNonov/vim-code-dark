@@ -226,6 +226,11 @@ call <sid>hi('htmlTagName', s:cdBlue, {}, 'none', {})
 call <sid>hi('htmlSpecialTagName', s:cdBlue, {}, 'none', {})
 call <sid>hi('htmlArg', s:cdLightBlue, {}, 'none', {})
 
+" XML:
+call <sid>hi('xmlTag', s:cdGray, {}, 'none', {})
+call <sid>hi('xmlTagName', s:cdBlue, {}, 'none', {})
+call <sid>hi('xmlEndTag', s:cdGray, {}, 'none', {})
+
 " CSS:
 call <sid>hi('cssBraces', s:cdFront, {}, 'none', {})
 call <sid>hi('cssInclude', s:cdPink, {}, 'none', {})
