@@ -3,6 +3,8 @@
 
 scriptencoding utf-8
 
+syn region xmlTagName matchgroup=xmlEndTag start=+</+ end=+>+
+
 set background=dark
 hi clear
 if exists("syntax_on")
