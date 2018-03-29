@@ -1,9 +1,7 @@
 " Vim Code Dark (color scheme)
 " https://github.com/tomasiser/vim-code-dark
-
+hi link xmlEndTag xmlTag
 scriptencoding utf-8
-
-syn region xmlTagName matchgroup=xmlEndTag start=+</+ end=+>+
 
 set background=dark
 hi clear
