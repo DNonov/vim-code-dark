@@ -253,7 +253,7 @@ call <sid>hi('cssFunctionName', s:cdOrange, {}, 'none', {})
 call <sid>hi('cssVendor', s:cdOrange, {}, 'none', {})
 call <sid>hi('cssValueNumber', s:cdLightGreen, {}, 'none', {})
 call <sid>hi('cssValueLength', s:cdLightGreen, {}, 'none', {})
-call <sid>hi('cssUnitDecorators', s:cdOrange, {}, 'none', {})
+call <sid>hi('cssUnitDecorators', s:cdLightGreen, {}, 'none', {})
 
 " JavaScript:
 call <sid>hi('jsVariableDef', s:cdLightBlue, {}, 'none', {})
