@@ -192,7 +192,7 @@ call <sid>hi('Keyword', s:cdBlue, {}, 'none', {})
 call <sid>hi('pythonOperator', s:cdBlue, {}, 'none', {})
 call <sid>hi('Exception', s:cdOrange, {}, 'none', {})
 
-call <sid>hi('PreProc', s:cdBlue, {}, 'none', {})
+call <sid>hi('PreProc', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('Include', s:cdBlue, {}, 'none', {})
 call <sid>hi('Define', s:cdBlue, {}, 'none', {})
 call <sid>hi('Macro', s:cdBlue, {}, 'none', {})
