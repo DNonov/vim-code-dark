@@ -260,6 +260,7 @@ call <sid>hi('jsVariableDef', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsFuncArgs', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsRegexpString', s:cdLightRed, {}, 'none', {})
 call <sid>hi('jsThis', s:cdBlue, {}, 'none', {})
+call <sid>hi('jsDomElemFuncs', s:cdLightBlue, {}, 'none', {})
 
 " Ruby:
 call <sid>hi('rubyClassNameTag', s:cdBlueGreen, {}, 'none', {})
