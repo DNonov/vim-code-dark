@@ -262,6 +262,8 @@ call <sid>hi('jsRegexpString', s:cdLightRed, {}, 'none', {})
 call <sid>hi('jsThis', s:cdBlue, {}, 'none', {})
 call <sid>hi('jsDomElemFuncs', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsDomElemAttrs', s:cdLightBlue, {}, 'none', {})
+" vim-jsx is xml based plugin, so this changes the color of the attributes
+call <sid>hi('xmlAttrib', s:cdLightBlue, {}, 'none', {})
 
 " Ruby:
 call <sid>hi('rubyClassNameTag', s:cdBlueGreen, {}, 'none', {})
