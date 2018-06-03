@@ -269,6 +269,7 @@ call <sid>hi('jsObjectKey', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsObjectKeyComputed', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsObjectColon', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsSwitchCase', s:cdLightBlue, {}, 'none', {})
+call <sid>hi('jsDestructuringProperty', s:cdLightBlue, {}, 'none', {})
 
 " Ruby:
 call <sid>hi('rubyClassNameTag', s:cdBlueGreen, {}, 'none', {})
