@@ -190,7 +190,6 @@ call <sid>hi('Repeat', s:cdOrange, {}, 'none', {})
 call <sid>hi('Label', s:cdOrange, {}, 'none', {})
 call <sid>hi('Operator', s:cdFront, {}, 'none', {})
 call <sid>hi('Keyword', s:cdBlue, {}, 'none', {})
-call <sid>hi('pythonOperator', s:cdBlue, {}, 'none', {})
 call <sid>hi('Exception', s:cdOrange, {}, 'none', {})
 
 call <sid>hi('PreProc', s:cdLightBlue, {}, 'none', {})
@@ -271,6 +270,10 @@ call <sid>hi('jsObjectKeyComputed', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsObjectColon', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsSwitchCase', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsDestructuringProperty', s:cdLightBlue, {}, 'none', {})
+
+" Python:
+call <sid>hi('pythonOperator', s:cdBlue, {}, 'none', {})
+call <sid>hi('pythonRepeat', s:cdBlue, {}, 'none', {})
 
 " Ruby:
 call <sid>hi('rubyClassNameTag', s:cdBlueGreen, {}, 'none', {})
