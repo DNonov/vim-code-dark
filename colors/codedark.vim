@@ -278,6 +278,7 @@ call <sid>hi('pythonClass', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('pythonRepeat', s:cdBlue, {}, 'none', {})
 call <sid>hi('pythonClassParameters', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('pythonParameters', s:cdLightBlue, {}, 'none', {})
+call <sid>hi('pythonParam', s:cdLightBlue, {}, 'none', {})
 
 " Ruby:
 call <sid>hi('rubyClassNameTag', s:cdBlueGreen, {}, 'none', {})
