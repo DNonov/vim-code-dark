@@ -271,9 +271,8 @@ call <sid>hi('jsObjectColon', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsSwitchCase', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsDestructuringProperty', s:cdLightBlue, {}, 'none', {})
 
-" Python:
+ Python:
 call <sid>hi('pythonOperator', s:cdBlue, {}, 'none', {})
-call <sid>hi('pythonExtraOperator', s:cdBlue, {}, 'none', {})
 call <sid>hi('pythonFunction', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('pythonClass', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('pythonRepeat', s:cdBlue, {}, 'none', {})
