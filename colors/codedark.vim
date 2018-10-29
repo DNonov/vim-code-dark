@@ -274,8 +274,10 @@ call <sid>hi('jsDestructuringProperty', s:cdLightBlue, {}, 'none', {})
 " Python:
 call <sid>hi('pythonOperator', s:cdBlue, {}, 'none', {})
 call <sid>hi('pythonFunction', s:cdYellowOrange, {}, 'none', {})
+call <sid>hi('pythonClass', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('pythonRepeat', s:cdBlue, {}, 'none', {})
-call <sid>hi('pythonParam', s:cdRed, {}, 'none', {})
+call <sid>hi('pythonClassParameters', s:cdLightBlue, {}, 'none', {})
+call <sid>hi('pythonParameters', s:cdLightBlue, {}, 'none', {})
 
 " Ruby:
 call <sid>hi('rubyClassNameTag', s:cdBlueGreen, {}, 'none', {})
