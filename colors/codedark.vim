@@ -275,6 +275,8 @@ call <sid>hi('jsDestructuringProperty', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('pythonOperator', s:cdBlue, {}, 'none', {})
 call <sid>hi('pythonFunction', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('pythonRepeat', s:cdBlue, {}, 'none', {})
+call <sid>hi('pythonVars', s:cdRed, {}, 'none', {})
+call <sid>hi('pythonConstant', s:cdYellow, {}, 'none', {})
 
 " Ruby:
 call <sid>hi('rubyClassNameTag', s:cdBlueGreen, {}, 'none', {})
