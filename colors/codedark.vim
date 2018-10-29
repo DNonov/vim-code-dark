@@ -273,6 +273,7 @@ call <sid>hi('jsDestructuringProperty', s:cdLightBlue, {}, 'none', {})
 
 " Python:
 call <sid>hi('pythonOperator', s:cdBlue, {}, 'none', {})
+call <sid>hi('pythonExtraOperator', s:cdBlue, {}, 'none', {})
 call <sid>hi('pythonFunction', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('pythonClass', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('pythonRepeat', s:cdBlue, {}, 'none', {})
