@@ -1,6 +1,5 @@
 " Vim Code Dark (color scheme)
 " https://github.com/tomasiser/vim-code-dark
-hi link xmlEndTag xmlTag
 scriptencoding utf-8
 
 set background=dark
@@ -229,10 +228,12 @@ call <sid>hi('htmlArg', s:cdLightBlue, {}, 'none', {})
 " JSON:
 call <sid>hi('jsonKeyword', s:cdBlue, {}, 'none', {})
 
+hi link xmlEndTag xmlTag
+syntax region xmlTagName matchgroup=xmlEndTag start=+</+ end=+>+
 " XML:
 call <sid>hi('xmlTag', s:cdGray, {}, 'none', {})
 call <sid>hi('xmlTagName', s:cdBlue, {}, 'none', {})
-call <sid>hi('xmlEndTag', s:cdBlue, {}, 'none', {})
+call <sid>hi('xmlEndTag', s:cdGray, {}, 'none', {})
 
 " CSS:
 call <sid>hi('cssBraces', s:cdFront, {}, 'none', {})
