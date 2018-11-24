@@ -228,8 +228,6 @@ call <sid>hi('htmlArg', s:cdLightBlue, {}, 'none', {})
 " JSON:
 call <sid>hi('jsonKeyword', s:cdBlue, {}, 'none', {})
 
-hi link xmlEndTag xmlTag
-syntax region xmlTagName matchgroup=xmlEndTag start=+</+ end=+>+
 " XML:
 call <sid>hi('xmlTag', s:cdGray, {}, 'none', {})
 call <sid>hi('xmlTagName', s:cdBlue, {}, 'none', {})
