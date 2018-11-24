@@ -232,7 +232,7 @@ call <sid>hi('jsonKeyword', s:cdBlue, {}, 'none', {})
 " XML:
 call <sid>hi('xmlTag', s:cdGray, {}, 'none', {})
 call <sid>hi('xmlTagName', s:cdBlue, {}, 'none', {})
-call <sid>hi('xmlEndTag', s:cdGray, {}, 'none', {})
+call <sid>hi('xmlEndTag', s:cdBlue, {}, 'none', {})
 
 " CSS:
 call <sid>hi('cssBraces', s:cdFront, {}, 'none', {})
