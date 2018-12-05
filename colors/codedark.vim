@@ -181,7 +181,7 @@ call <sid>hi('Boolean', s:cdBlue, {}, 'none', {})
 call <sid>hi('Float', s:cdLightGreen, {}, 'none', {})
 
 call <sid>hi('Identifier', s:cdLightBlue, {}, 'none', {})
-call <sid>hi('Function', s:cdLightGreen, {}, 'none', {})
+call <sid>hi('Function', s:cdYellowOrange, {}, 'none', {})
 
 call <sid>hi('Statement', s:cdBlue, {}, 'none', {})
 call <sid>hi('Conditional', s:cdBlue, {}, 'none', {})
@@ -263,7 +263,7 @@ call <sid>hi('jsDomElemFuncs', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsDomElemAttrs', s:cdLightBlue, {}, 'none', {})
 " vim-jsx is xml based plugin, so this changes the color of the attributes
 call <sid>hi('xmlAttrib', s:cdLightBlue, {}, 'none', {})
-call <sid>hi('jsFuncCall', s:cdLightGreen, {}, 'none', {})
+call <sid>hi('jsFuncCall', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('jsObjectKey', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsObjectKeyComputed', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsObjectColon', s:cdLightBlue, {}, 'none', {})
