@@ -279,9 +279,6 @@ call <sid>hi('pythonClassParameters', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('pythonParameters', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('pythonCustomParams', s:cdLightBlue, {}, 'none', {})
 
-" Jinja:
-call <sid>hi('jinjaTagBlock', s:cdYellowOrange, {}, 'none', {})
-
 " Ruby:
 call <sid>hi('rubyClassNameTag', s:cdBlueGreen, {}, 'none', {})
 
